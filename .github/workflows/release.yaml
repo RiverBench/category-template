@@ -1,0 +1,14 @@
+name: "Release"
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - "v*"
+  workflow_dispatch: {}
+
+jobs:
+  release:
+    uses: RiverBench/ci-workflows/.github/workflows/category-release.yaml@main
+    permissions: write-all
+    secrets: inherit
