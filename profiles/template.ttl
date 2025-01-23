@@ -1,8 +1,8 @@
-@prefix :        <https://w3id.org/riverbench/profiles/> .
-@prefix dcat:    <http://www.w3.org/ns/dcat#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix rb:      <https://w3id.org/riverbench/schema/metadata#> .
-@prefix stax:    <https://w3id.org/stax/ontology#> .
+PREFIX :        <https://w3id.org/riverbench/profiles/>
+PREFIX dcat:    <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rb:      <https://w3id.org/riverbench/schema/metadata#>
+PREFIX stax:    <https://w3id.org/stax/ontology#>
 
 # This file is a template for creating a new profile.
 # Copy this file and replace the placeholders with the actual values.
